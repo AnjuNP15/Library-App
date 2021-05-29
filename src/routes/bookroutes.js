@@ -23,7 +23,7 @@ var books=[
         author:'Emily Bronte',
         genre:'Drama',
         description:'Wuthering Heights is an 1847 novel by Emily Brontë, published under the pseudonym Ellis Bell. It concerns two families of the landed gentry living on the West Yorkshire moors, the Earnshaws and the Lintons, and their turbulent relationships with Earnshaws adopted son, Heathcliff. It was influenced by Romanticism and Gothic fiction.<br><br>Wuthering Heights is now considered a classic of English literature, but contemporaneous reviews were polarised. It was controversial for its depictions of mental and physical cruelty, and for its challenges to Victorian morality, and religious and societal values.<br><br>Wuthering Heights was accepted by publisher Thomas Newby along with Anne Brontës Agnes Grey before the success of their sister Charlottes novel Jane Eyre, but they were published later. Charlotte edited a second edition of Wuthering Heights after Emilys death which was published in 1850.',
-        img:"Wutheringheights.jpg"
+        img:"wutheringheights.jpg"
     }
 
 ]
