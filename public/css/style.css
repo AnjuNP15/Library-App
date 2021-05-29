@@ -1,0 +1,55 @@
+
+
+
+
+.ip {
+    width: 40%;  
+    padding: 12px ;
+    margin: 8px ;
+   border: 1px solid black; 
+    display: inline-block; 
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+    
+  }
+  
+  button {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 8px ;
+    width:40%;
+    
+  }
+  
+  h1,p {
+    text-align: center;
+    
+}
+
+  form {
+
+    /* float: right; */
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 20px;
+    
+    /* color: white; */
+    
+    
+}
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+ 
