@@ -3,7 +3,7 @@
 
 
 .ip {
-    width: 40%;  
+    width: 50%;  
     padding: 12px ;
     margin: 8px ;
    border: 1px solid black; 
@@ -16,7 +16,7 @@
   
   button {
     
-    background-color: #4CAF50;
+    background-color:#111166;
     color: white;
     padding: 14px;
     margin: 8px ;

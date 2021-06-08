@@ -6,8 +6,14 @@ indexrouter.get('/', function(req,res){
     res.render("index",{
     nav,
     title:'Library App'
-    });
+    }); 
 });
+
+
+
+
+
+
 return indexrouter
 }
 module.exports=indexrouters;
