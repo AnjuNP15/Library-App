@@ -17,7 +17,7 @@ signuprouter.post('/', function (req, res) {
         }
    var signup= signupdata(item);
    signup.save();
-   res.redirect('/signup');
+   res.render("login");
 
 });
 module.exports=signuprouter;

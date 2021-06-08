@@ -63,12 +63,11 @@ app.get('/', function (req, res) {
 
 
 app.post('/', function (req, res) {
-    var myquery = {username :req.body.username };
+    var myquery = {username :req.body.username,password:req.body.password};
     // ,password:req.body.password
      signupdata.findOne(myquery)
        .then(function(value){
-        console.log(value);
-       if(value){
+       if(value){ 
         res.render("index",{
             title:'Library App',
             nav
@@ -76,9 +75,7 @@ app.post('/', function (req, res) {
        }  
        else {
         
-        res.render("login",{
-        title:'LOGINFAILED'
-        })
+        res.render("login");
        }  
     });
 
