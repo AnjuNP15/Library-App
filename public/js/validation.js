@@ -64,13 +64,18 @@ if(regexp.test(email.value))
     error.innerText="true";
     error.style.color="green";
     return true;
+    if (password1.value != password2.value){
+        alert("Password doesnt match")
+        return false;
+    }
 }
-else 
+else
 {
-    alert("Email Invalid")
+    alert("Email Invalid");
     return false;
 }
 if (password1.value != password2.value){
+    alert("Password doesnt match")
     return false;
 }
 }
